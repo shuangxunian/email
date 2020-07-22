@@ -4,11 +4,15 @@
 
 使用此项目需要你有node+npm
 
-安装依赖：npm install
+## 安装依赖：
 
-改emailto.txt：按行存储邮箱地址
+npm install
 
-email.js：
+## 改emailto.txt：
+
+按行存储邮箱地址
+
+## 改email.js：
 
 addr为邮箱地址，即你的邮箱，ex：123456@qq.com
 
@@ -19,4 +23,8 @@ host为smtp服务器主机，已填qq邮箱，如换其他邮箱记得更换，�
 mailSubject添加邮件主题，
 
 mailText为邮件正文，正文中换行可用“/n”
+
+## 运行
+
+node email.js
 
